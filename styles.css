@@ -1,0 +1,131 @@
+/* General background and text color adjustments */
+body {
+  background-color: #151414 !important; /* Darker background */
+  color: #b5b5b5 !important; /* Softer gray text */
+}
+
+/* Ensure all text is readable */
+* {
+  color: #b5b5b5 !important; /* Softer gray text */
+  background-color: transparent !important; /* Prevent conflicting background colors */
+}
+
+/* Adjust links */
+a {
+  color: #a8a8ff !important; /* Softer purple for links */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  color: #ffffff !important; /* Bright white text on hover */
+}
+
+/* Highlight the active deck */
+.deck.active {
+  background-color: #151414 !important; /* Darker background for active deck */
+  color: #a8a8ff !important; /* Softer purple text for active deck */
+  border: 2px solid #a8a8ff !important; /* Add a border to indicate active state */
+  border-radius: 5px; /* Optional: Rounded corners */
+}
+
+/* Ensure hover effect still works */
+.deck:hover {
+  background-color: #252525 !important; /* Slightly lighter gray on hover */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Handle specific elements unique to the website */
+.special-class {
+  background-color: #151414 !important; /* Darker background */
+  color: #b5b5b5 !important; /* Softer gray text */
+}
+
+/* Flashcard container */
+div#qa_box.card.card1.svelte-192a69y {
+  background-color: #151414 !important; /* Darker background for the card */
+  color: #b5b5b5 !important; /* Softer gray text for readability */
+  border: 1px solid #252525; /* Optional: Add a subtle border */
+  padding: 10px; /* Optional: Add some spacing */
+  border-radius: 5px; /* Optional: Rounded corners */
+}
+
+/* Ensure text inside the card is readable */
+div#qa_box.card.card1.svelte-192a69y * {
+  color: #b5b5b5 !important; /* Softer gray text */
+}
+
+/* Optional: Style the answer buttons */
+.again, .hard, .good, .easy {
+  background-color: #252525 !important; /* Slightly lighter gray button background */
+  color: #b5b5b5 !important; /* Softer gray button text */
+  border: 1px solid #353535; /* Subtle border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 5px 10px; /* Add padding for better spacing */
+}
+
+.again:hover, .hard:hover, .good:hover, .easy:hover {
+  background-color: #353535 !important; /* Slightly lighter gray on hover */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Target the container with d-flex and justify-content-center */
+div.d-flex.justify-content-center {
+  background-color: #151414 !important; /* Darker background */
+  color: #b5b5b5 !important; /* Softer gray text */
+  border: 1px solid #252525; /* Optional: Subtle border for contrast */
+  padding: 10px; /* Optional: Add spacing */
+  border-radius: 5px; /* Optional: Rounded corners */
+}
+
+/* Ensure all child elements inherit the text color */
+div.d-flex.justify-content-center * {
+  color: #b5b5b5 !important;
+}
+
+/* Optional: Add styling for buttons or links inside this container */
+div.d-flex.justify-content-center a, 
+div.d-flex.justify-content-center button {
+  background-color: #252525 !important; /* Slightly lighter gray for buttons/links */
+  color: #b5b5b5 !important; /* Softer gray text */
+  border: 1px solid #353535; /* Subtle border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 5px 10px; /* Add padding for better spacing */
+  text-decoration: none; /* Remove underline from links */
+}
+
+div.d-flex.justify-content-center a:hover, 
+div.d-flex.justify-content-center button:hover {
+  background-color: #353535 !important; /* Slightly lighter gray on hover */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Target the container with row and justify-content-center */
+div.row.justify-content-center {
+  background-color: #151414 !important; /* Darker background */
+  color: #b5b5b5 !important; /* Softer gray text */
+  border: 1px solid #252525; /* Optional: Subtle border for contrast */
+  padding: 10px; /* Optional: Add spacing */
+  border-radius: 5px; /* Optional: Rounded corners */
+}
+
+/* Ensure all child elements inherit the text color */
+div.row.justify-content-center * {
+  color: #b5b5b5 !important;
+}
+
+/* Optional: Add styling for buttons or links inside this container */
+div.row.justify-content-center a, 
+div.row.justify-content-center button {
+  background-color: #252525 !important; /* Slightly lighter gray for buttons/links */
+  color: #b5b5b5 !important; /* Softer gray text */
+  border: 1px solid #353535; /* Subtle border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 5px 10px; /* Add padding for better spacing */
+  text-decoration: none; /* Remove underline from links */
+}
+
+div.row.justify-content-center a:hover, 
+div.row.justify-content-center button:hover {
+  background-color: #353535 !important; /* Slightly lighter gray on hover */
+  cursor: pointer; /* Pointer cursor on hover */
+}
